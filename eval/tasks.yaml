@@ -1,0 +1,4 @@
+- id: trip_create
+  prompt: "Add POST /trips with validations and tests."
+- id: map_search
+  prompt: "Implement location search with Mapbox; respect privacy flag."

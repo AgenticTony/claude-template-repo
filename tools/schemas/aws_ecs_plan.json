@@ -1,0 +1,10 @@
+{
+  "title": "aws.ecs_plan",
+  "type": "object",
+  "properties": {
+    "service": { "type": "string", "description": "ECS service name" },
+    "image": { "type": "string", "description": "Docker image tag, e.g. ghcr.io/app:sha" },
+    "response_format": { "type": "string", "enum": ["concise","detailed"], "default": "concise" }
+  },
+  "required": ["service", "image"]
+}
